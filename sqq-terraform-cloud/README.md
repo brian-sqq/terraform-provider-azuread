@@ -63,7 +63,7 @@ jq -n --arg ns SuperQuickQuestion --rawfile key public.asc \
 }' > key.json
 ```
 
-Follow the remaining steps in the documentation for this section to upload the key, and __copy the response's `key-id`.
+Follow the remaining steps in the documentation for this section to upload the key, and __copy the response's `key-id`__.
 
 ### [Create a version](https://developer.hashicorp.com/terraform/cloud-docs/registry/publish-providers#create-a-version)
 Using the version you created and the `key-id` you copied from the previous step, follow instructions in this section of the documentation.  Be sure to __copy the 2 `links` outputs for the next step`__.
