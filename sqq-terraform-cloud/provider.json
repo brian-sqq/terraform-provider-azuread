@@ -1,0 +1,10 @@
+{
+  "data": {
+    "type": "registry-providers",
+    "attributes": {
+      "name": "azuread",
+      "namespace": "SuperQuickQuestion",
+      "registry-name": "private"
+    }
+  }
+}

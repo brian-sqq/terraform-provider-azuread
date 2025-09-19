@@ -43,3 +43,6 @@ terraform-provider-azuread
 
 # terraform version
 .terraform-version
+
+# for Terraform Cloud
+sqq-terraform-cloud/dist/

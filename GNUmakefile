@@ -19,6 +19,7 @@ tools:
 	curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b "$$(go env GOPATH || $$GOPATH)"/bin v1.64.8
 
 build: fmtcheck
+	@echo "==> Building $(PROVIDER) provider..."
 	go install
 
 debug: fmtcheck

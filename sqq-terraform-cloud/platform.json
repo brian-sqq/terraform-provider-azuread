@@ -1,0 +1,11 @@
+{
+  "data": {
+    "type": "registry-provider-version-platforms",
+    "attributes": {
+      "os": "linux",
+      "arch": "amd64",
+      "shasum": "dd9ec8bc4e6d76326ba6b754e529f2861880e3f78c91b66584cac261f6c31840",
+      "filename": "terraform-provider-azuread_3.5.0-sqq.2_linux_amd64.zip"
+    }
+  }
+}
