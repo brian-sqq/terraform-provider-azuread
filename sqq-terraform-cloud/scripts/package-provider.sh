@@ -7,19 +7,19 @@
 #   terraform-provider-azuread/sqq-terraform-cloud/dist/<VERSION>/
 #
 # Requires:
-#   - arg1: VERSION (e.g., 2.47.0-sqq.1)
+#   - arg1: VERSION (e.g., 3.5.0-sqq.1)
 #   - env : GPG_KEY_ID (local GPG secret key id/fingerprint)
 #
 # Produces:
 #   dist/<VERSION>/linux_amd64/terraform-provider-azuread_<VERSION>_linux_amd64.zip
 #   dist/<VERSION>/SHA256SUMS
-#   dist/<VERSION>/SHA256SUMS.asc
+#   dist/<VERSION>/SHA256SUMS.sig
 
 set -euo pipefail
 
 # ---- required inputs ----
 if [[ $# -lt 1 ]]; then
-  echo "Usage: $0 <version>   e.g., $0 2.47.0-sqq.1" >&2
+  echo "Usage: $0 <version>   e.g., $0 3.5.0-sqq.1" >&2
   exit 1
 fi
 VERSION="$1"
