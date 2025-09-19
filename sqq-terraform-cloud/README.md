@@ -1,5 +1,5 @@
 ## Publishing Provider for Terraform Cloud
-Follow instructions in this [documentation](https://developer.hashicorp.com/terraform/cloud-docs/registry/publish-providers).
+Follow instructions in this [documentation](https://developer.hashicorp.com/terraform/cloud-docs/registry/publish-providers).  This README contains additional hints and helpers for each section you'll find there.
 
 ### [Create the provider](https://developer.hashicorp.com/terraform/cloud-docs/registry/publish-providers#create-the-provider)
 We have added the `provider.json` file here, but have already used the API to create the provider.
